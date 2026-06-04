@@ -1,0 +1,21 @@
+{
+  "name": "appdev-monorepo",
+  "version": "1.0.0",
+  "description": "Shipyard Engineering Monorepo",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "lint": "echo 'No linting configured yet'",
+    "type-check": "tsc --noEmit",
+    "start": "echo 'Scaffolding start script' && exit 0"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@playwright/test": "^1.44.1",
+    "typescript": "^5.4.5"
+  }
+}
